@@ -1,4 +1,4 @@
-# Kickoff GatsbyJs
+# photografer
 
 A starting point using ReactJs, bundled with awesome GatsbyJs v2.
 
@@ -38,3 +38,4 @@ yarn start
 yarn run build
 yarn serve
 ```
+# photography-portfolio
