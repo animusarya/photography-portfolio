@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="40px" viewBox="0 0 21 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.0686433553 20.9294466 0.0686433553 20.9294466 39.7619048 0 39.7619048"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Teacher-dashboard" transform="translate(-1277.000000, -231.000000)">
+            <g id="Row-1---Saved-Packs" transform="translate(0.000000, 173.000000)">
+                <g id="arrows" transform="translate(1277.000000, 58.000000)">
+                    <g id="Group-3">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M2.71215415,19.9142426 L20.5995059,1.98811187 C21.0394269,1.5472372 21.0394269,0.840174039 20.5995059,0.399299362 C20.159585,-0.0415753138 19.4540514,-0.0415753138 19.0141304,0.399299362 L0.329940711,19.1239955 C-0.109980237,19.5648702 -0.109980237,20.2719334 0.329940711,20.712808 L19.0141304,39.4291858 C19.2299407,39.6454639 19.5204545,39.7619214 19.802668,39.7619214 C20.0848814,39.7619214 20.3753953,39.6537823 20.5912055,39.4291858 C21.0311265,38.9883111 21.0311265,38.281248 20.5912055,37.8403733 L2.71215415,19.9142426 Z" id="Fill-1" fill="#5A6175" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -8,10 +8,9 @@ import Header from './Header';
 import './layout.css';
 
 const Container = styled.div`
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 0px 1.0875rem 1.45rem;
-  padding-top: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  font-family: sans-serif;
 `;
 
 const IndexLayout = ({ children }) => (
@@ -23,7 +22,7 @@ const IndexLayout = ({ children }) => (
       <meta description={config.description} />
     </Helmet>
     <Header />
-    <Container>{children}</Container>
+    <Container className="Container">{children}</Container>
   </div>
 );
 

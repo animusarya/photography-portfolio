@@ -14,6 +14,27 @@ export default class HTML extends React.Component {
           />
 
           {/* Add custom css or scripts here */}
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css"
+          />
+          <script
+            defer
+            src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"
+          />
+          <link
+            rel="stylesheet"
+            type="text/css"
+            charSet="UTF-8"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+          />
+          <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+          />
+
+          <script src="//cdnjs.cloudflare.com/ajax/libs/masonry/3.1.5/masonry.pkgd.min.js" />
 
           {/* Add custom css or scripts here */}
 

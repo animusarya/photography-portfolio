@@ -1,33 +1,83 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import styled from 'styled-components';
+
+const Container = styled.div`
+  width: 100%;
+  background-color: #222222 !important;
+  .navbar-burger {
+    display: inherit;
+  }
+  @media screen and (max-width: 600px) {
+    width: 55% !important;
+  }
+`;
 
 const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
+  <Container
+    id="navMenu"
+    className="navbar is-fixed-top"
+    role="navigation"
+    aria-label="main navigation"
   >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Gatsby
-        </Link>
-      </h1>
+    <div className="container">
+      <div className="navbar-brand">
+        <a className="navbar-item" href="#">
+          <i className="fas fa-camera-retro is-size-3" />
+        </a>
+        <div id="navbar-burger-id" className="navbar-burger is-pulled-right">
+          <span />
+          <span />
+          <span />
+        </div>
+      </div>
+      <div id="navbar-menu-id" className="navbar-menu">
+        <div className="navbar-start" />
+        <div className="navbar-end">
+          <a
+            className="navbar-item is-size-7 has-text-white"
+            href="https://bulma.io/"
+          >
+            HOME
+          </a>
+          <a
+            className="navbar-item is-size-7 has-text-white"
+            href="https://bulma.io/"
+          >
+            ABOUT ME
+          </a>
+          <a
+            className="navbar-item is-size-7 has-text-white"
+            href="https://bulma.io/"
+          >
+            GALLERY
+          </a>
+          <a
+            className="navbar-item is-size-7 has-text-white"
+            href="https://bulma.io/"
+          >
+            BLOG
+          </a>
+          <a
+            className="navbar-item is-size-7 has-text-white"
+            href="https://bulma.io/"
+          >
+            CONTACT
+          </a>
+          <a
+            className="navbar-item is-size-7 has-text-white"
+            href="https://bulma.io/"
+          >
+            GENERIC
+          </a>
+          <a
+            className="navbar-item is-size-7 has-text-white"
+            href="https://bulma.io/"
+          >
+            ELEMENTS
+          </a>
+        </div>
+      </div>
     </div>
-  </div>
+  </Container>
 );
-
 export default Header;
