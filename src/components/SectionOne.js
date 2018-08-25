@@ -39,7 +39,7 @@ const SliderContant = styled.div`
   font-size: 35px !important;
   @media screen and (max-width: 600px) {
     font-size: 15px !important;
-    margin-top:-21%!important;
+    margin-top: -21%!important;
     float:right;
   }
 `;

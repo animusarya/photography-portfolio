@@ -55,7 +55,7 @@ const SectionOne = () => (
         />
       </div>
       <div className="column">
-        <h1 className="subtitle is-size-2 has-text-black has-text-weight-semibold ">
+        <h1 className="subtitle is-size-2 has-text-black has-text-weight-semibold is-size-3-mobile">
           We Believe that <br /> Interior beautifies the
         </h1>
         <p className="para1 has-text-grey">

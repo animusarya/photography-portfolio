@@ -4,15 +4,33 @@ import styled from 'styled-components';
 const Container = styled.div`
   width: 100%;
   background-color: #222222 !important;
+  @media screen and (max-width: 600px) {
+    width: 375px;
+    height: 3%;
+  }
   .navbar-burger {
     color: #fff !important;
     display: inherit;
-  @media screen and (max-width: 600px) {
-    width: 55% !important;
+    @media screen and (max-width: 600px) {
+      margin-top: -14%;
   }
   .navbar-menu {
     transition-property: width;
     transition-duration: 2s;
+  }
+`;
+
+const MobilMenu = styled.div`
+  background-color: #fff;
+  color: black;
+  position: unset;
+  left: 0px;
+  top: 0px;
+  height: auto;
+  width: 100%;
+  z-index: 2;
+  padding: 1rem;
+  overflow: hidden;
 `;
 export default class extends React.Component {
   constructor(props) {
@@ -46,7 +64,6 @@ export default class extends React.Component {
               <i className="has-text-white fas fa-camera-retro is-size-3" />
             </a>
           </div>
-
           <div
             id="navbar-menu-id"
             className={isHidden ? 'navbar-burger is-hidden' : 'navbar-burger'}
@@ -99,7 +116,6 @@ export default class extends React.Component {
               </div>
             </div>
           </div>
-
           <a
             role="button"
             className={isHidden ? 'navbar-burger' : 'is-active navbar-burger'}
@@ -112,6 +128,58 @@ export default class extends React.Component {
             <span aria-hidden="true" />
           </a>
         </div>
+        <MobilMenu
+          className={
+            isHidden
+              ? 'has-text-centered is-hidden-desktop is-hidden'
+              : 'has-text-centered is-hidden-desktop'
+          }
+        >
+          <aside className="menu">
+            <a
+              className="navbar-item is-size-7 has-text-black"
+              href="https://bulma.io/"
+            >
+              HOME
+            </a>
+            <a
+              className="navbar-item is-size-7 has-text-black"
+              href="https://bulma.io/"
+            >
+              ABOUT ME
+            </a>
+            <a
+              className="navbar-item is-size-7 has-text-black"
+              href="https://bulma.io/"
+            >
+              GALLERY
+            </a>
+            <a
+              className="navbar-item is-size-7 has-text-black"
+              href="https://bulma.io/"
+            >
+              BLOG
+            </a>
+            <a
+              className="navbar-item is-size-7 has-text-black"
+              href="https://bulma.io/"
+            >
+              CONTACT
+            </a>
+            <a
+              className="navbar-item is-size-7 has-text-black"
+              href="https://bulma.io/"
+            >
+              GENERIC
+            </a>
+            <a
+              className="navbar-item is-size-7 has-text-black"
+              href="https://bulma.io/"
+            >
+              ELEMENTS
+            </a>
+          </aside>
+        </MobilMenu>
       </Container>
     );
   }
