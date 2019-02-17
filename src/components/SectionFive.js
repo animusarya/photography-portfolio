@@ -24,7 +24,7 @@ const ComnentBox = styled.div`
   border-left: hidden;
   border-right: hidden;
   h5 {
-    margin-right: 35%;
+    margin-right: 25% !important;
     margin-top: 11%;
     @media screen and (max-width: 600px) {
       margin-right: 61%;

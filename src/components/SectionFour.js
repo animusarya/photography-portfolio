@@ -14,6 +14,9 @@ const Container = styled.div`
       margin-left: 0%;
       width: 44%;
   }
+  .columns {
+    margin-right:0rem !important;
+  }
 `;
 
 const From = styled.div`
@@ -22,7 +25,6 @@ const From = styled.div`
   margin-top: 20%;
   margin-left: 15% !important;
   @media screen and (max-width: 600px) {
-    width: 198%;
     font-family: sans-serif;
     margin-top: 6%;
     margin-left: 2% !important;
